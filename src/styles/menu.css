@@ -1,0 +1,46 @@
+.menu-container {
+  display: flex;
+  align-items: flex-start;
+  background-color: #c3d9e9; /* Azul bebê */
+  padding: 20px;
+}
+.menu-sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.menu-sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-sidebar li {
+  margin-bottom: 10px;
+}
+
+.menu-sidebar a {
+  text-decoration: none;
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.menu-sidebar a:hover {
+  background-color: #eaeaea;
+}
+
+.menu-sidebar a.active {
+  background-color: #ccc;
+}
+
+.menu-logo {
+  padding-left: 20px;
+}
+
+.menu-logo img {
+  max-width: 100%;
+  height: auto;
+}

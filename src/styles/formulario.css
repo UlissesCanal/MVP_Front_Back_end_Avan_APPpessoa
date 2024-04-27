@@ -1,0 +1,59 @@
+.formulario-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 600px;
+    margin-bottom: 1rem;
+    margin-left: 20px; /* Adiciona espaçamento à esquerda */
+
+  }
+  .cadastro-pessoa-container {
+    padding: 20px;
+    margin-left: 20px; /* Adiciona espaçamento à esquerda */
+  }
+  
+  .custom-h2 {
+    color: #002a5e; /* Azul escuro */
+    margin-left: 20px; /* Adiciona espaçamento à esquerda */
+  }
+  
+  .cadastro-pessoa-content {
+    margin-top: 20px; /* Adiciona espaçamento superior */
+  }
+
+  .formulario-container h2 {
+    color: #002a5e; /* Azul escuro */
+    margin-left: 20px; /* Adiciona espaçamento à esquerda */
+    margin-bottom: 10px; /* Adiciona espaçamento inferior */
+  }
+  .formulario-container .MuiTextField-root {
+    margin-bottom: 1rem;
+  }
+  
+  .formulario-container button[type="submit"],
+  .formulario-container button[type="button"] {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .formulario-container button[type="submit"]:hover,
+  .formulario-container button[type="button"]:hover {
+    background-color: #0056b3;
+  }
+  
+  .formulario-container button[type="submit"] {
+    margin-right: 1rem;
+  }
+  
+  .formulario-container button[type="button"] {
+    background-color: #0056b3;
+  }
+  
+  .formulario-container button[type="button"]:hover {
+    background-color: #ac2e39;
+  }
+  
